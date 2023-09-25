@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import Swal from 'sweetalert2'
 
 const DonationDetails = () => {
     const [donation, setDonation] = useState([])
@@ -24,7 +25,11 @@ const DonationDetails = () => {
         if (!donationData) {
             addedDonations.push(donation);
             localStorage.setItem("donations", JSON.stringify(addedDonations));
-            alert('kio boro vai')
+            Swal.fire({
+                icon: 'success',
+                title: 'Thanks',
+                text: `You Donated ${price}`
+            })
         }
 
         else {
@@ -34,11 +39,19 @@ const DonationDetails = () => {
 
                 addedDonations.push(...donationData, donation);
                 localStorage.setItem("donations", JSON.stringify(addedDonations));
-                alert('ki obostha boro vai')
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Thanks',
+                    text: `You Donated ${price}`
+                })
 
-            } 
+            }
             else {
-                alert('hi vaiya')
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Sorry',
+                    text: 'Already Donated',
+                })
             }
         }
     }
