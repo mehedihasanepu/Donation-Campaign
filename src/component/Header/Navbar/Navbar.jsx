@@ -21,7 +21,7 @@ const Navbar = () => {
 
 
                 </div>
-                <nav className={`absolute top-9 z-50 bg-white px-5 py-5 rounded-lg md:block md:static ${open ? 'block' : 'hidden'} ${open ? 'right-14' : ''}`}>
+                <nav className={`absolute top-9 z-50 bg-white px-5 py-5 rounded-lg md:block md:static ${open ? 'block' : 'hidden'} ${open ? 'right-20' : ''}`}>
                     <ul className="flex flex-col md:flex-row gap-5">
                             <NavLink to="/">Home</NavLink>
                             <NavLink to="/donation">Donation</NavLink>
