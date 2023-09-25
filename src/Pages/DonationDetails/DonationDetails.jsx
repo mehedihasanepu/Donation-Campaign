@@ -28,10 +28,7 @@ const DonationDetails = () => {
         }
 
         else {
-
-
             const isDonationExits = donationData.find((donation) => donation.id === idInt);
-
 
             if (!isDonationExits) {
 
@@ -39,16 +36,11 @@ const DonationDetails = () => {
                 localStorage.setItem("donations", JSON.stringify(addedDonations));
                 alert('ki obostha boro vai')
 
-            } else {
+            } 
+            else {
                 alert('hi vaiya')
             }
-
-
-
-
         }
-
-
     }
 
     return (
