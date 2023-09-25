@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/8jSvFXC/Health.png",
+      "card-img":"https://i.ibb.co/crP3nSb/card-health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "card_bg_color": "#0052FF26",
+      "category_bg_color": "#0052FF33",
+      "text_and_btn_bg_color": "#0052FF",
+      "description": "Discover the secrets to a healthier you with our Healthy Lifestyle Guide, tailored for health enthusiasts. This comprehensive guide is your roadmap to a life filled with vitality and well-being. Unlock the power of natural ingredients, backed by the latest scientific research, and supercharge your immune system. Wave goodbye to fatigue, and say hello to a vibrant, active lifestyle. Take control of your health today with this essential guide. Plus, it comes with a 30-day money-back guarantee to ensure your satisfaction. Embrace a healthier you and start your journey now! Experience a healthier lifestyle with our revolutionary Healthy Lifestyle Guide. Packed with natural ingredients and backed by scientific research, this guide is designed to boost your immunity, increase your energy levels, and promote overall well-being. Say goodbye to fatigue and hello to a vibrant, active life. Take control of your health today! Comes with a 30-day money-back guarantee.",
+      "price": "$19.99"
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/gyCKq2r/Education.png",
+      "card-img":"https://i.ibb.co/jWWPx9J/card-education.png",
+      "title": "Good education",
+      "category": "Education",
+      "card_bg_color": "#FF444A26",
+      "category_bg_color": "#FF444A33",
+      "text_and_btn_bg_color": "#FF444A",
+      "description": "Dive into the world of knowledge with our Educational Masterpiece tailored for lifelong learners in the Education category. This meticulously crafted book covers a vast array of subjects, from the intriguing realms of history and science to the enchanting worlds of literature and mathematics. Whether you're a student striving for academic excellence or a curious soul eager to expand your horizons, this book is your ultimate companion. Immerse yourself in the joy of learning and unlock new dimensions of wisdom. Order now and take the first step towards a brighter future! Embark on an enlightening journey with Educational Masterpiece. This meticulously researched tome is a treasure trove of knowledge, covering a wide array of subjects. Whether you're a student aiming for academic excellence or an avid reader seeking intellectual enrichment, this book is your ultimate companion. Expand your horizons and ignite your passion for learning. Secure your copy today!",
+      "price": "$29.99"
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/1ZLwrHd/Clothing.png",
+      "card-img":"https://i.ibb.co/nkbCVWF/card-clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "card_bg_color": "#79C23F26",
+      "category_bg_color": "#79C23F33",
+      "text_and_btn_bg_color": "#79C23F",
+      "description": "Elevate your style and embrace elegance with our Fashionable Attire, tailored for the fashion-forward individuals in the Clothing category. Every stitch in this exquisite clothing item is a testament to precision and perfection. Whether you're stepping into a formal event or embarking on a casual outing, you'll make an unforgettable statement with this piece in your wardrobe. Stand out from the crowd, and seize the opportunity to redefine high fashion. Dare to be different and order now to unlock a world of style! Elevate your style with Fashionable Attire. Crafted with precision and designed to perfection, this clothing item is a symbol of elegance and fashion. Whether you're attending a special event or simply want to express your unique fashion sense, you'll make a statement with this piece. Embrace your individuality and elevate your fashion game. Be the trendsetter you were born to be. Order now!",
+      "price": "$49.99"
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/BTXBMtR/Food.png",
+      "card-img":"https://i.ibb.co/cX2KC0W/card-food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "card_bg_color": "#F8714726",
+      "category_bg_color": "#F8714733",
+      "text_and_btn_bg_color": "#F87147",
+      "description": "Embark on a culinary journey like never before with our Gourmet Delights curated for food enthusiasts in the Food category. Each bite of this mouthwatering creation is a harmonious symphony of flavors and textures, meticulously crafted using the finest ingredients. This food product is more than just a meal; it's a gastronomic masterpiece that transcends ordinary dining. Whether you're a passionate food connoisseur or simply seeking to pamper your taste buds, this product promises an unforgettable culinary adventure. Bon appétit! Indulge in a culinary adventure with Gourmet Delights. Crafted with precision and passion, every bite is a symphony of flavors. Whether you're a food enthusiast or simply looking to treat yourself, this is a culinary experience you won't want to miss. Experience gourmet dining at its finest!",
+      "price": "$9.99"
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/8jSvFXC/Health.png",
+      "card-img":"https://i.ibb.co/crP3nSb/card-health.png",
+      "title": "Vitality Boost",
+      "category": "Health",
+      "card_bg_color": "#0052FF26",
+      "category_bg_color": "#0052FF33",
+      "text_and_btn_bg_color": "#0052FF",
+      "description": "Elevate your vitality and well-being with Vitality Boost, specially designed for those in the Health category. This remarkable supplement represents a holistic approach to health and wellness. Bid farewell to the shackles of stress, fatigue, and those pesky ailments that hold you back. Our product is a powerhouse of natural ingredients, carefully selected to enhance your mental clarity, boost physical vitality, and restore emotional balance. Each serving is a step towards a healthier, happier you. Don't wait any longer; invest in your well-being and embark on your wellness journey today! Invest in your well-being with Revitalizing Formula. Our advanced formula is designed to provide you with a holistic approach to health. Say goodbye to stress, fatigue, and those pesky ailments that hold you back. Our product is a powerhouse of natural ingredients that support mental clarity, physical vitality, and emotional balance. Take the first step towards a healthier, happier you. Start your wellness journey today!",
+      "price": "$24.99"
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/gyCKq2r/Education.png",
+      "card-img":"https://i.ibb.co/jWWPx9J/card-education.png",
+      "title": "Enlightening Read",
+      "category": "Education",
+      "card_bg_color": "#FF444A26",
+      "category_bg_color": "#FF444A33",
+      "text_and_btn_bg_color": "#FF444A",
+      "description": "Immerse yourself in an enlightening journey through the captivating pages of our Educational Book 2, tailored for the Education category. This meticulously researched and beautifully written book spans a wide range of subjects, making learning a thrilling adventure. Whether you're a dedicated student striving for academic excellence or an avid reader with an insatiable thirst for knowledge, this book is your passport to intellectual growth. Uncover the joy of learning and expand your horizons as you delve into the captivating world of Education. Secure your copy today! Embark on an enlightening journey with Educational Book 2. This meticulously researched tome is a treasure trove of knowledge, covering a wide array of subjects. Whether you're a student striving for excellence or an avid reader hungry for new insights, this book is your ultimate guide. Dive into the fascinating world of learning and unlock new possibilities. Grab your copy now!",
+      "price": "$19.99"
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/1ZLwrHd/Clothing.png",
+      "card-img":"https://i.ibb.co/nkbCVWF/card-clothing.png",
+      "title": "Style Statement",
+      "category": "Clothing",
+      "card_bg_color": "#79C23F26",
+      "category_bg_color": "#79C23F33",
+      "text_and_btn_bg_color": "#79C23F",
+      "description": "Make a bold style statement with Style Statement, meticulously crafted for fashion enthusiasts in the Clothing category. This impeccably designed piece radiates confidence and style, ensuring that you'll be the center of attention whether you're attending a special event or simply expressing your unique fashion sense. Embrace your individuality, elevate your fashion game, and redefine your style. It's time to be the trendsetter you were born to be. Don't miss this opportunity to stand out from the crowd; order now! Make a style statement with Fashion Forward. This fashion-forward piece is designed to turn heads and boost your confidence. Whether you're attending a special occasion or simply want to express your unique style, you'll make a statement with this clothing item. Stand out from the crowd and embrace your individuality. Elevate your fashion game and order now!",
+      "price": "$39.99"
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/BTXBMtR/Food.png",
+      "card-img":"https://i.ibb.co/cX2KC0W/card-food.png",
+      "title": "Culinary Delight",
+      "category": "Food",
+      "card_bg_color": "#F8714726",
+      "category_bg_color": "#F8714733",
+      "text_and_btn_bg_color": "#F87147",
+      "description": "Prepare to be swept away by a culinary masterpiece with Culinary Delight, a gourmet experience for those in the Food category. Every bite is a symphony of flavors, crafted with meticulous care and attention to detail. Immerse yourself in the delights of gourmet dining like never before. Whether you're a seasoned food connoisseur or simply seeking to delight your senses, this is a culinary adventure that promises unparalleled bliss. Indulge in luxury dining like never before! Treat yourself to a culinary masterpiece with Culinary Delight. Every bite of this delectable creation is a journey through exquisite flavors and textures. Crafted with precision and passion, this food product is a true gastronomic masterpiece. Whether you're a food connoisseur or simply looking to delight your senses, this is a culinary adventure you won't want to miss. Indulge in luxury dining at its finest!",
+      "price": "$12.99"
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co/8jSvFXC/Health.png",
+      "card-img":"https://i.ibb.co/crP3nSb/card-health.png",
+      "title": "Revitalizing Formula",
+      "category": "Health",
+      "card_bg_color": "#0052FF26",
+      "category_bg_color": "#0052FF33",
+      "text_and_btn_bg_color": "#0052FF",
+      "description": "Revitalize your health with our advanced Revitalizing Formula, designed to empower those in the Health category with boundless energy and well-being. Say goodbye to fatigue and hello to a brighter, healthier future. Rediscover the joys of a healthy, active lifestyle, one serving at a time. Don't wait; invest in yourself and experience the transformative power of vitality today! Invest in your well-being with Revitalizing Formula. Our advanced formula is designed to provide you with a holistic approach to health. Say goodbye to stress, fatigue, and those pesky ailments that hold you back. Our product is a powerhouse of natural ingredients that support mental clarity, physical vitality, and emotional balance. Take the first step towards a healthier, happier you. Start your wellness journey today!",
+      "price": "$34.99"
+    },
+    {
+      "id": 10,
+      "img": "https://i.ibb.co/gyCKq2r/Education.png",
+      "card-img":"https://i.ibb.co/jWWPx9J/card-education.png",
+      "title": "Knowledge Companion",
+      "category": "Education",
+      "card_bg_color": "#FF444A26",
+      "category_bg_color": "#FF444A33",
+      "text_and_btn_bg_color": "#FF444A",
+      "description": "Embark on an enlightening journey with Knowledge Companion, the ultimate companion for those in the Education category. This meticulously researched tome is a treasure trove of knowledge, covering a wide array of subjects. Whether you're a student striving for academic excellence or an avid reader seeking intellectual enrichment, this book is your gateway to intellectual growth. Expand your horizons and ignite your passion for learning as you secure your copy today! Embark on an enlightening journey with Knowledge Companion. This meticulously researched tome is a treasure trove of knowledge, covering a wide array of subjects. Whether you're a student striving for academic excellence or an avid reader hungry for new insights, this book is your ultimate guide. Dive into the fascinating world of learning and unlock new possibilities. Grab your copy now!",
+      "price": "$27.99"
+    },
+    {
+      "id": 11,
+      "img": "https://i.ibb.co/1ZLwrHd/Clothing.png",
+      "card-img":"https://i.ibb.co/nkbCVWF/card-clothing.png",
+      "title": "Fashion Forward",
+      "category": "Clothing",
+      "card_bg_color": "#79C23F26",
+      "category_bg_color": "#79C23F33",
+      "text_and_btn_bg_color": "#79C23F",
+      "description": "Make a bold fashion statement with Style Statement, meticulously crafted for fashion enthusiasts in the Clothing category. This impeccably designed piece radiates confidence and style, ensuring that you'll be the center of attention whether you're attending a special event or simply expressing your unique fashion sense. Embrace your individuality, elevate your fashion game, and redefine your style. It's time to be the trendsetter you were born to be. Don't miss this opportunity to stand out from the crowd; order now! Make a style statement with Fashion Forward. This fashion-forward piece is designed to turn heads and boost your confidence. Whether you're attending a special occasion or simply want to express your unique style, you'll make a statement with this clothing item. Stand out from the crowd and embrace your individuality. Elevate your fashion game and order now!",
+      "price": "$54.99"
+    },
+    {
+        "id": 12,
+        "img": "https://i.ibb.co/BTXBMtR/Food.png",
+        "card-img":"https://i.ibb.co/cX2KC0W/card-food.png",
+        "title": "Culinary Bliss",
+        "category": "Food",
+        "card_bg_color": "#F8714726",
+        "category_bg_color": "#F8714733",
+        "text_and_btn_bg_color": "#F87147",
+      "description": "Prepare to be swept away by a culinary masterpiece with Culinary Delight, a gourmet experience for those in the Food category. Every bite is a symphony of flavors, crafted with meticulous care and attention to detail. Immerse yourself in the delights of gourmet dining like never before. Whether you're a seasoned food connoisseur or simply seeking to delight your senses, this is a culinary adventure that promises unparalleled bliss. Indulge in luxury dining like never before! Treat yourself to a culinary masterpiece with Culinary Delight. Every bite of this delectable creation is a journey through exquisite flavors and textures. Crafted with precision and passion, this food product is a true gastronomic masterpiece. Whether you're a food connoisseur or simply looking to delight your senses, this is a culinary adventure you won't want to miss. Indulge in luxury dining at its finest!",
+        "price": "$14.99"
+    }
+]
+ 
