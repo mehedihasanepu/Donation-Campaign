@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+/* import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 
 const Cards = () => {
@@ -19,4 +19,4 @@ const Cards = () => {
     );
 };
 
-export default Cards;
+export default Cards; */
