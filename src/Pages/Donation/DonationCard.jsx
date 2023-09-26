@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const DonationCard = ({ cardDonationData }) => {
-    const { id, img, card_img, title, category, card_bg_color, category_bg_color, text_and_btn_bg_color, description, price } = cardDonationData;
+    const { id, img, title, category, category_bg_color, text_and_btn_bg_color, price } = cardDonationData;
 
     return (
         <div className="mt-10">
@@ -24,5 +24,7 @@ const DonationCard = ({ cardDonationData }) => {
         </div>
     );
 };
-
+DonationCard.propTypes = {
+    cardDonationData: PropTypes.object.isRequired
+}
 export default DonationCard;
