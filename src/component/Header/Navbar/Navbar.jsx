@@ -6,11 +6,14 @@ import { useState } from 'react';
 const Navbar = () => {
     const [open, setOpen] = useState(false);
 
+    const handleRefresh =()=>{
+        window.location.reload()
+    }
     return (
         <nav>
             <div className='flex justify-between p-5  items-center'>
                 <div>
-                    <img className='w-36 md:w-60' src="/src/assets/image/Logo.png" alt="" />
+                    <img onClick={handleRefresh} className='w-36 md:w-60' src="/src/assets/image/Logo.png" alt="" />
                 </div>
                 <div onClick={() => setOpen(!open)} className="text-3xl md:hidden ">
                     {
@@ -23,9 +26,9 @@ const Navbar = () => {
                 </div>
                 <nav className={`absolute top-9 z-50 bg-white px-5 py-5 rounded-lg md:block md:static ${open ? 'block' : 'hidden'} ${open ? 'right-20' : ''}`}>
                     <ul className="flex flex-col md:flex-row gap-5">
-                            <NavLink to="/">Home</NavLink>
-                            <NavLink to="/donation">Donation</NavLink>
-                            <NavLink to="/statistics">Statistics</NavLink>
+                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/donation">Donation</NavLink>
+                        <NavLink to="/statistics">Statistics</NavLink>
                     </ul>
                 </nav>
             </div>
