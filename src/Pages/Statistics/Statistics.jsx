@@ -3,20 +3,18 @@ import { useEffect, useState } from "react";
 import { PieChart, Pie, Cell } from "recharts";
 
 export default function Statistics() {
-    const [donationPercent, setDonationPercent] = useState([])
     const [totalPercent, setTotalPercent] = useState([])
 
     useEffect(() => {
         const donationsData = JSON.parse(localStorage.getItem('donations'));
 
-        setDonationPercent(donationsData)
         if (donationsData) {
             const totalData = 12;
             const totalDonation = donationsData.length;
             let per = (totalDonation / totalData) * 100;
             setTotalPercent(per)
         }
-    }, [donationPercent])
+    }, [])
 
     const data = [
         { name: "Group A", value: 100 - totalPercent },
@@ -71,7 +69,7 @@ export default function Statistics() {
                 </PieChart>
             </div>
 
-            <div className="flex gap-20 justify-center">
+            <div className="flex gap-5 md:gap-20 justify-center flex-col md:flex-row">
                 <div className="flex gap-5 items-center">
                     <p className="text-lg">Your Donation</p>
                     <div className="h-3 w-24 rounded-sm bg-[#FF444A]"></div>
