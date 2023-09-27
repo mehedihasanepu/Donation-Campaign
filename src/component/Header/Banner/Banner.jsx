@@ -29,7 +29,6 @@ const Banner = () => {
             setSearchResult(donationData)
         )
     }
-    console.log(searchResult);
     return (
         <div>
             <div className="relative">
@@ -40,7 +39,7 @@ const Banner = () => {
                     <div className="hero-content  text-center">
                         <div className="mt-5 md:mt-24 lg:mt-44">
                             <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold pb-5">I Grow By Helping People In Need</h1>
-                            <input type="text" placeholder="Search here...." className="  py-2 pr-10 px-3 md:pr-36 md:py-3 md:px-5 border rounded-l-lg" onChange={handleSearch}
+                            <input type="text" placeholder="Search here...." className=" w-44 md:w-auto py-2 pl-3 pr-1 md:pr-36 md:py-3 md:px-5 border rounded-l-lg" onChange={handleSearch}
                             />
                             <button onClick={handleSearchBtn} className="px-2 py-2 md:px-6 md:py-3 bg-[#FF444A] rounded-e-lg text-white">Search</button>
                         </div>

@@ -16,7 +16,7 @@ const Navbar = () => {
                 <div>
                     <img onClick={handleRefresh} className='w-36 md:w-60' src={navLogo} alt="" />
                 </div>
-                <div onClick={() => setOpen(!open)} className="text-3xl md:hidden ">
+                <div onClick={() => setOpen(!open)} className="text-2xl md:hidden ">
                     {
                         open === true ?
                             <RxCross1></RxCross1>

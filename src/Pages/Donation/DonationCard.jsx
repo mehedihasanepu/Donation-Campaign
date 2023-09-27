@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 
 const DonationCard = ({ cardDonationData }) => {
-    const { id, card_img, title, category, category_bg_color, text_and_btn_bg_color, price } = cardDonationData;
+    const { id, card_img, title, category, category_bg_color,card_bg_color, text_and_btn_bg_color, price } = cardDonationData;
 
     return (
         <div className="mt-10">
-            <div className="card card-side bg-base-100 shadow-xl">
+            <div  className="card card-side bg-base-100 shadow-xl" style={{ backgroundColor: `${card_bg_color}` }}>
                 <figure><img className="w-72 h-64" src={card_img} alt="Donation img" /></figure>
 
                 <div className="pl-5 pt-10 space-y-2">
