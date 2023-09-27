@@ -3,6 +3,7 @@ import { RxCross1 } from 'react-icons/rx';
 import { NavLink } from 'react-router-dom';
 import './navbar.css'
 import { useState } from 'react';
+import navLogo from "../../../assets/image/Logo.png"
 const Navbar = () => {
     const [open, setOpen] = useState(false);
 
@@ -13,7 +14,7 @@ const Navbar = () => {
         <nav>
             <div className='flex justify-between p-5  items-center'>
                 <div>
-                    <img onClick={handleRefresh} className='w-36 md:w-60' src="/src/assets/image/Logo.png" alt="" />
+                    <img onClick={handleRefresh} className='w-36 md:w-60' src={navLogo} alt="" />
                 </div>
                 <div onClick={() => setOpen(!open)} className="text-3xl md:hidden ">
                     {

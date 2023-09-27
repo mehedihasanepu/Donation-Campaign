@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import DonationCard from "./DonationCard";
+import NoDataPage from "../../component/NoDataPage/NoDataPage";
 
 const Donation = () => {
     const [donationData, setDonationData] = useState([]);
@@ -11,12 +12,12 @@ const Donation = () => {
             setDonationData(donationCardData)
         }
         else {
-            setNoData('No data')
+            setNoData(<NoDataPage></NoDataPage>)
         }
     }, [setDonationData])
 
     const handleRemoveBtn = () => {
-        localStorage.clear(); setDonationData([]); setNoData('No data')
+        localStorage.clear(); setDonationData([]); setNoData(<NoDataPage></NoDataPage>)
     }
     return (
         <div>
