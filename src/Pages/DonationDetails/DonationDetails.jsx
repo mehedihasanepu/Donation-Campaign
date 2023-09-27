@@ -59,7 +59,7 @@ const DonationDetails = () => {
     return (
         <div>
             <div className="relative">
-                <img src={img} className="w-full h-[610px]" alt="" />
+                <img src={img} className="w-full h-72 md:h-[610px]" alt="" />
                 <div className=" absolute bottom-0 pl-10 py-8 bg-black bg-opacity-30 w-full">
                     <button onClick={handleAddToDonation} style={{ backgroundColor: `${text_and_btn_bg_color}` }} className="text-white w-fit px-4 py-3 rounded-md font-semibold" >Donate {price}</button>
                 </div>
